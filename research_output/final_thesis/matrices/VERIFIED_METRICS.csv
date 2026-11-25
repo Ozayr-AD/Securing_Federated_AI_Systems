@@ -1,0 +1,669 @@
+key,value,source,method,status
+e1.baseline.backdoor.last3_mean_accuracy.mean,0.7123,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e1.baseline.backdoor.last3_mean_accuracy.ci95_half,0.0745,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.baseline.backdoor.final_backdoor_asr.mean,0.9209,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e1.baseline.backdoor.final_backdoor_asr.ci95_half,0.2181,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.baseline.label_flip.last3_mean_accuracy.mean,0.6901,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e1.baseline.label_flip.last3_mean_accuracy.ci95_half,0.0887,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.baseline.label_flip.final_backdoor_asr.mean,0.0153,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e1.baseline.label_flip.final_backdoor_asr.ci95_half,0.0035,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.baseline.none.last3_mean_accuracy.mean,0.8232,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e1.baseline.none.last3_mean_accuracy.ci95_half,0.0267,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.baseline.none.final_backdoor_asr.mean,0.0179,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e1.baseline.none.final_backdoor_asr.ci95_half,0.0155,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.baseline.random_noise.last3_mean_accuracy.mean,0.8127,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e1.baseline.random_noise.last3_mean_accuracy.ci95_half,0.0201,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.baseline.random_noise.final_backdoor_asr.mean,0.0208,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e1.baseline.random_noise.final_backdoor_asr.ci95_half,0.0124,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.baseline.scaled_replacement.last3_mean_accuracy.mean,0.1358,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e1.baseline.scaled_replacement.last3_mean_accuracy.ci95_half,0.1139,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.baseline.scaled_replacement.final_backdoor_asr.mean,0.1947,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e1.baseline.scaled_replacement.final_backdoor_asr.ci95_half,0.6032,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.baseline.sign_flip.last3_mean_accuracy.mean,0.1141,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e1.baseline.sign_flip.last3_mean_accuracy.ci95_half,0.0607,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.baseline.sign_flip.final_backdoor_asr.mean,0.3333,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e1.baseline.sign_flip.final_backdoor_asr.ci95_half,1.4343,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.mtd_only.backdoor.last3_mean_accuracy.mean,0.3165,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e1.mtd_only.backdoor.last3_mean_accuracy.ci95_half,0.6719,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.mtd_only.backdoor.final_backdoor_asr.mean,0.3057,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e1.mtd_only.backdoor.final_backdoor_asr.ci95_half,1.0716,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.mtd_only.label_flip.last3_mean_accuracy.mean,0.4628,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e1.mtd_only.label_flip.last3_mean_accuracy.ci95_half,0.0979,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.mtd_only.label_flip.final_backdoor_asr.mean,0.0637,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e1.mtd_only.label_flip.final_backdoor_asr.ci95_half,0.1838,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.mtd_only.none.last3_mean_accuracy.mean,0.83,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e1.mtd_only.none.last3_mean_accuracy.ci95_half,0.0174,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.mtd_only.none.final_backdoor_asr.mean,0.0254,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e1.mtd_only.none.final_backdoor_asr.ci95_half,0.0099,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.mtd_only.random_noise.last3_mean_accuracy.mean,0.8058,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e1.mtd_only.random_noise.last3_mean_accuracy.ci95_half,0.0171,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.mtd_only.random_noise.final_backdoor_asr.mean,0.0231,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e1.mtd_only.random_noise.final_backdoor_asr.ci95_half,0.0312,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.mtd_only.scaled_replacement.last3_mean_accuracy.mean,0.1786,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e1.mtd_only.scaled_replacement.last3_mean_accuracy.ci95_half,0.3189,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.mtd_only.scaled_replacement.final_backdoor_asr.mean,0.0005,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e1.mtd_only.scaled_replacement.final_backdoor_asr.ci95_half,0.0022,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.mtd_only.sign_flip.last3_mean_accuracy.mean,0.0993,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e1.mtd_only.sign_flip.last3_mean_accuracy.ci95_half,0.0032,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.mtd_only.sign_flip.final_backdoor_asr.mean,0.0,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e1.mtd_only.sign_flip.final_backdoor_asr.ci95_half,0.0,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.smpc_clip.backdoor.last3_mean_accuracy.mean,0.8164,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e1.smpc_clip.backdoor.last3_mean_accuracy.ci95_half,0.0184,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.smpc_clip.backdoor.final_backdoor_asr.mean,0.4673,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e1.smpc_clip.backdoor.final_backdoor_asr.ci95_half,0.1655,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.smpc_clip.label_flip.last3_mean_accuracy.mean,0.7658,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e1.smpc_clip.label_flip.last3_mean_accuracy.ci95_half,0.0509,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.smpc_clip.label_flip.final_backdoor_asr.mean,0.0161,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e1.smpc_clip.label_flip.final_backdoor_asr.ci95_half,0.0181,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.smpc_clip.none.last3_mean_accuracy.mean,0.8277,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e1.smpc_clip.none.last3_mean_accuracy.ci95_half,0.0231,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.smpc_clip.none.final_backdoor_asr.mean,0.0238,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e1.smpc_clip.none.final_backdoor_asr.ci95_half,0.0078,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.smpc_clip.random_noise.last3_mean_accuracy.mean,0.8298,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e1.smpc_clip.random_noise.last3_mean_accuracy.ci95_half,0.0086,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.smpc_clip.random_noise.final_backdoor_asr.mean,0.0243,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e1.smpc_clip.random_noise.final_backdoor_asr.ci95_half,0.0093,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.smpc_clip.scaled_replacement.last3_mean_accuracy.mean,0.7599,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e1.smpc_clip.scaled_replacement.last3_mean_accuracy.ci95_half,0.0908,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.smpc_clip.scaled_replacement.final_backdoor_asr.mean,0.0168,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e1.smpc_clip.scaled_replacement.final_backdoor_asr.ci95_half,0.0243,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.smpc_clip.sign_flip.last3_mean_accuracy.mean,0.812,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e1.smpc_clip.sign_flip.last3_mean_accuracy.ci95_half,0.0337,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.smpc_clip.sign_flip.final_backdoor_asr.mean,0.0188,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e1.smpc_clip.sign_flip.final_backdoor_asr.ci95_half,0.008,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.smpc_defence_mtd.backdoor.last3_mean_accuracy.mean,0.8218,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e1.smpc_defence_mtd.backdoor.last3_mean_accuracy.ci95_half,0.014,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.smpc_defence_mtd.backdoor.final_backdoor_asr.mean,0.0172,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e1.smpc_defence_mtd.backdoor.final_backdoor_asr.ci95_half,0.0057,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.smpc_defence_mtd.label_flip.last3_mean_accuracy.mean,0.7241,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e1.smpc_defence_mtd.label_flip.last3_mean_accuracy.ci95_half,0.3862,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.smpc_defence_mtd.label_flip.final_backdoor_asr.mean,0.0434,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e1.smpc_defence_mtd.label_flip.final_backdoor_asr.ci95_half,0.1007,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.smpc_defence_mtd.none.last3_mean_accuracy.mean,0.8298,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e1.smpc_defence_mtd.none.last3_mean_accuracy.ci95_half,0.0137,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.smpc_defence_mtd.none.final_backdoor_asr.mean,0.0198,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e1.smpc_defence_mtd.none.final_backdoor_asr.ci95_half,0.0065,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.smpc_defence_mtd.random_noise.last3_mean_accuracy.mean,0.8165,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e1.smpc_defence_mtd.random_noise.last3_mean_accuracy.ci95_half,0.0269,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.smpc_defence_mtd.random_noise.final_backdoor_asr.mean,0.0225,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e1.smpc_defence_mtd.random_noise.final_backdoor_asr.ci95_half,0.0203,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.smpc_defence_mtd.scaled_replacement.last3_mean_accuracy.mean,0.8268,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e1.smpc_defence_mtd.scaled_replacement.last3_mean_accuracy.ci95_half,0.017,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.smpc_defence_mtd.scaled_replacement.final_backdoor_asr.mean,0.0201,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e1.smpc_defence_mtd.scaled_replacement.final_backdoor_asr.ci95_half,0.0125,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.smpc_defence_mtd.sign_flip.last3_mean_accuracy.mean,0.8208,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e1.smpc_defence_mtd.sign_flip.last3_mean_accuracy.ci95_half,0.0131,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.smpc_defence_mtd.sign_flip.final_backdoor_asr.mean,0.0193,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e1.smpc_defence_mtd.sign_flip.final_backdoor_asr.ci95_half,0.0126,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.smpc_mtd.backdoor.last3_mean_accuracy.mean,0.4133,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e1.smpc_mtd.backdoor.last3_mean_accuracy.ci95_half,0.4985,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.smpc_mtd.backdoor.final_backdoor_asr.mean,0.3173,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e1.smpc_mtd.backdoor.final_backdoor_asr.ci95_half,1.2543,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.smpc_mtd.label_flip.last3_mean_accuracy.mean,0.5641,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e1.smpc_mtd.label_flip.last3_mean_accuracy.ci95_half,0.3167,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.smpc_mtd.label_flip.final_backdoor_asr.mean,0.0261,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e1.smpc_mtd.label_flip.final_backdoor_asr.ci95_half,0.03,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.smpc_mtd.none.last3_mean_accuracy.mean,0.8286,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e1.smpc_mtd.none.last3_mean_accuracy.ci95_half,0.0026,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.smpc_mtd.none.final_backdoor_asr.mean,0.0153,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e1.smpc_mtd.none.final_backdoor_asr.ci95_half,0.0121,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.smpc_mtd.random_noise.last3_mean_accuracy.mean,0.8128,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e1.smpc_mtd.random_noise.last3_mean_accuracy.ci95_half,0.029,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.smpc_mtd.random_noise.final_backdoor_asr.mean,0.0289,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e1.smpc_mtd.random_noise.final_backdoor_asr.ci95_half,0.0049,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.smpc_mtd.scaled_replacement.last3_mean_accuracy.mean,0.094,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e1.smpc_mtd.scaled_replacement.last3_mean_accuracy.ci95_half,0.0259,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.smpc_mtd.scaled_replacement.final_backdoor_asr.mean,0.3331,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e1.smpc_mtd.scaled_replacement.final_backdoor_asr.ci95_half,1.4334,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.smpc_mtd.sign_flip.last3_mean_accuracy.mean,0.0979,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e1.smpc_mtd.sign_flip.last3_mean_accuracy.ci95_half,0.0086,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.smpc_mtd.sign_flip.final_backdoor_asr.mean,0.0,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e1.smpc_mtd.sign_flip.final_backdoor_asr.ci95_half,0.0,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.smpc_only.backdoor.last3_mean_accuracy.mean,0.7267,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e1.smpc_only.backdoor.last3_mean_accuracy.ci95_half,0.0978,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.smpc_only.backdoor.final_backdoor_asr.mean,0.8767,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e1.smpc_only.backdoor.final_backdoor_asr.ci95_half,0.2235,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.smpc_only.label_flip.last3_mean_accuracy.mean,0.6705,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e1.smpc_only.label_flip.last3_mean_accuracy.ci95_half,0.1419,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.smpc_only.label_flip.final_backdoor_asr.mean,0.0154,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e1.smpc_only.label_flip.final_backdoor_asr.ci95_half,0.0161,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.smpc_only.none.last3_mean_accuracy.mean,0.8273,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e1.smpc_only.none.last3_mean_accuracy.ci95_half,0.0283,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.smpc_only.none.final_backdoor_asr.mean,0.0178,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e1.smpc_only.none.final_backdoor_asr.ci95_half,0.0123,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.smpc_only.random_noise.last3_mean_accuracy.mean,0.8138,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e1.smpc_only.random_noise.last3_mean_accuracy.ci95_half,0.0144,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.smpc_only.random_noise.final_backdoor_asr.mean,0.02,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e1.smpc_only.random_noise.final_backdoor_asr.ci95_half,0.0062,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.smpc_only.scaled_replacement.last3_mean_accuracy.mean,0.2721,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e1.smpc_only.scaled_replacement.last3_mean_accuracy.ci95_half,0.4044,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.smpc_only.scaled_replacement.final_backdoor_asr.mean,0.0618,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e1.smpc_only.scaled_replacement.final_backdoor_asr.ci95_half,0.159,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.smpc_only.sign_flip.last3_mean_accuracy.mean,0.1,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e1.smpc_only.sign_flip.last3_mean_accuracy.ci95_half,0.0002,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1.smpc_only.sign_flip.final_backdoor_asr.mean,0.0,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e1.smpc_only.sign_flip.final_backdoor_asr.ci95_half,0.0,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1x.plaintext_robust.backdoor.last3_mean_accuracy.mean,0.82,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e1x.plaintext_robust.backdoor.last3_mean_accuracy.ci95_half,0.0283,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1x.plaintext_robust.backdoor.final_backdoor_asr.mean,0.0193,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e1x.plaintext_robust.backdoor.final_backdoor_asr.ci95_half,0.0093,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1x.plaintext_robust.none.last3_mean_accuracy.mean,0.8237,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e1x.plaintext_robust.none.last3_mean_accuracy.ci95_half,0.0197,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1x.plaintext_robust.none.final_backdoor_asr.mean,0.0228,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e1x.plaintext_robust.none.final_backdoor_asr.ci95_half,0.0178,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1x.plaintext_robust.scaled_replacement.last3_mean_accuracy.mean,0.82,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e1x.plaintext_robust.scaled_replacement.last3_mean_accuracy.ci95_half,0.0283,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1x.plaintext_robust.scaled_replacement.final_backdoor_asr.mean,0.0193,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e1x.plaintext_robust.scaled_replacement.final_backdoor_asr.ci95_half,0.0093,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1x.plaintext_robust.sign_flip.last3_mean_accuracy.mean,0.82,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e1x.plaintext_robust.sign_flip.last3_mean_accuracy.ci95_half,0.0283,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1x.plaintext_robust.sign_flip.final_backdoor_asr.mean,0.0193,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e1x.plaintext_robust.sign_flip.final_backdoor_asr.ci95_half,0.0093,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1x.smpc_defence.backdoor.last3_mean_accuracy.mean,0.8213,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e1x.smpc_defence.backdoor.last3_mean_accuracy.ci95_half,0.0263,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1x.smpc_defence.backdoor.final_backdoor_asr.mean,0.0245,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e1x.smpc_defence.backdoor.final_backdoor_asr.ci95_half,0.006,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1x.smpc_defence.none.last3_mean_accuracy.mean,0.8236,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e1x.smpc_defence.none.last3_mean_accuracy.ci95_half,0.0246,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1x.smpc_defence.none.final_backdoor_asr.mean,0.0219,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e1x.smpc_defence.none.final_backdoor_asr.ci95_half,0.0079,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1x.smpc_defence.scaled_replacement.last3_mean_accuracy.mean,0.8213,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e1x.smpc_defence.scaled_replacement.last3_mean_accuracy.ci95_half,0.0263,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1x.smpc_defence.scaled_replacement.final_backdoor_asr.mean,0.0245,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e1x.smpc_defence.scaled_replacement.final_backdoor_asr.ci95_half,0.006,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1x.smpc_defence.sign_flip.last3_mean_accuracy.mean,0.8213,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e1x.smpc_defence.sign_flip.last3_mean_accuracy.ci95_half,0.0263,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1x.smpc_defence.sign_flip.final_backdoor_asr.mean,0.0245,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e1x.smpc_defence.sign_flip.final_backdoor_asr.ci95_half,0.006,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1x.smpc_screen.backdoor.last3_mean_accuracy.mean,0.8176,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e1x.smpc_screen.backdoor.last3_mean_accuracy.ci95_half,0.0158,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1x.smpc_screen.backdoor.final_backdoor_asr.mean,0.0219,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e1x.smpc_screen.backdoor.final_backdoor_asr.ci95_half,0.0044,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1x.smpc_screen.none.last3_mean_accuracy.mean,0.8268,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e1x.smpc_screen.none.last3_mean_accuracy.ci95_half,0.0266,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1x.smpc_screen.none.final_backdoor_asr.mean,0.0229,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e1x.smpc_screen.none.final_backdoor_asr.ci95_half,0.0108,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1x.smpc_screen.scaled_replacement.last3_mean_accuracy.mean,0.8176,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e1x.smpc_screen.scaled_replacement.last3_mean_accuracy.ci95_half,0.0158,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1x.smpc_screen.scaled_replacement.final_backdoor_asr.mean,0.0219,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e1x.smpc_screen.scaled_replacement.final_backdoor_asr.ci95_half,0.0044,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1x.smpc_screen.sign_flip.last3_mean_accuracy.mean,0.8176,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e1x.smpc_screen.sign_flip.last3_mean_accuracy.ci95_half,0.0158,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e1x.smpc_screen.sign_flip.final_backdoor_asr.mean,0.0219,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e1x.smpc_screen.sign_flip.final_backdoor_asr.ci95_half,0.0044,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e2.baseline.adaptive_backdoor.last3_mean_accuracy.mean,0.7123,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e2.baseline.adaptive_backdoor.last3_mean_accuracy.ci95_half,0.0745,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e2.baseline.adaptive_backdoor.final_backdoor_asr.mean,0.9209,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e2.baseline.adaptive_backdoor.final_backdoor_asr.ci95_half,0.2181,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e2.plaintext_robust.adaptive_backdoor.last3_mean_accuracy.mean,0.82,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e2.plaintext_robust.adaptive_backdoor.last3_mean_accuracy.ci95_half,0.0283,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e2.plaintext_robust.adaptive_backdoor.final_backdoor_asr.mean,0.0193,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e2.plaintext_robust.adaptive_backdoor.final_backdoor_asr.ci95_half,0.0093,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e2.smpc_clip.adaptive_backdoor.last3_mean_accuracy.mean,0.807,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e2.smpc_clip.adaptive_backdoor.last3_mean_accuracy.ci95_half,0.0548,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e2.smpc_clip.adaptive_backdoor.final_backdoor_asr.mean,0.3036,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e2.smpc_clip.adaptive_backdoor.final_backdoor_asr.ci95_half,0.1249,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e2.smpc_defence_mtd.adaptive_backdoor.last3_mean_accuracy.mean,0.8244,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 3 seeds",matches report
+e2.smpc_defence_mtd.adaptive_backdoor.last3_mean_accuracy.ci95_half,0.0033,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e2.smpc_defence_mtd.adaptive_backdoor.final_backdoor_asr.mean,0.1674,data/core/all_rounds.csv,"per-run final-round value, mean over 3 seeds",matches report
+e2.smpc_defence_mtd.adaptive_backdoor.final_backdoor_asr.ci95_half,0.388,data/core/all_rounds.csv,"Student-t half-width, n=3",recomputed
+e5.baseline.backdoor__dir05.last3_mean_accuracy.mean,0.5107,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 2 seeds",matches report
+e5.baseline.backdoor__dir05.last3_mean_accuracy.ci95_half,1.8072,data/core/all_rounds.csv,"Student-t half-width, n=2",recomputed
+e5.baseline.backdoor__dir05.final_backdoor_asr.mean,0.4874,data/core/all_rounds.csv,"per-run final-round value, mean over 2 seeds",matches report
+e5.baseline.backdoor__dir05.final_backdoor_asr.ci95_half,6.0636,data/core/all_rounds.csv,"Student-t half-width, n=2",recomputed
+e5.baseline.none__dir05.last3_mean_accuracy.mean,0.7831,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 2 seeds",matches report
+e5.baseline.none__dir05.last3_mean_accuracy.ci95_half,0.0811,data/core/all_rounds.csv,"Student-t half-width, n=2",recomputed
+e5.baseline.none__dir05.final_backdoor_asr.mean,0.0214,data/core/all_rounds.csv,"per-run final-round value, mean over 2 seeds",matches report
+e5.baseline.none__dir05.final_backdoor_asr.ci95_half,0.168,data/core/all_rounds.csv,"Student-t half-width, n=2",recomputed
+e5.smpc_defence_mtd.backdoor__dir05.last3_mean_accuracy.mean,0.7626,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 2 seeds",matches report
+e5.smpc_defence_mtd.backdoor__dir05.last3_mean_accuracy.ci95_half,0.1595,data/core/all_rounds.csv,"Student-t half-width, n=2",recomputed
+e5.smpc_defence_mtd.backdoor__dir05.final_backdoor_asr.mean,0.0034,data/core/all_rounds.csv,"per-run final-round value, mean over 2 seeds",matches report
+e5.smpc_defence_mtd.backdoor__dir05.final_backdoor_asr.ci95_half,0.0304,data/core/all_rounds.csv,"Student-t half-width, n=2",recomputed
+e5.smpc_defence_mtd.none__dir05.last3_mean_accuracy.mean,0.7882,data/core/all_rounds.csv,"per-run mean of rounds >=1 last three value, mean over 2 seeds",matches report
+e5.smpc_defence_mtd.none__dir05.last3_mean_accuracy.ci95_half,0.1893,data/core/all_rounds.csv,"Student-t half-width, n=2",recomputed
+e5.smpc_defence_mtd.none__dir05.final_backdoor_asr.mean,0.0158,data/core/all_rounds.csv,"per-run final-round value, mean over 2 seeds",matches report
+e5.smpc_defence_mtd.none__dir05.final_backdoor_asr.ci95_half,0.0565,data/core/all_rounds.csv,"Student-t half-width, n=2",recomputed
+core.cells_checked,170,data/core/all_rounds.csv,condition x attack x metric cells recomputed,recomputed
+core.cells_mismatched,0,data/core/all_rounds.csv,cells differing by > 5e-4,recomputed
+overhead.e1.baseline.round_seconds,8.79,data/core/all_rounds.csv,mean over 3 runs x 10 rounds,recomputed
+overhead.e1.mtd_only.round_seconds,8.83,data/core/all_rounds.csv,mean over 3 runs x 10 rounds,recomputed
+overhead.e1.smpc_clip.round_seconds,30.57,data/core/all_rounds.csv,mean over 3 runs x 10 rounds,recomputed
+overhead.e1.smpc_clip.protocol_seconds,22.38,data/core/all_rounds.csv,mean MP-SPDZ protocol seconds (max over parties),recomputed
+overhead.e1.smpc_clip.traffic_mb,3994.0,data/core/all_rounds.csv,mean MP-SPDZ global data sent per round (MB),recomputed
+overhead.e1.smpc_defence_mtd.round_seconds,32.5,data/core/all_rounds.csv,mean over 3 runs x 10 rounds,recomputed
+overhead.e1.smpc_defence_mtd.protocol_seconds,23.85,data/core/all_rounds.csv,mean MP-SPDZ protocol seconds (max over parties),recomputed
+overhead.e1.smpc_defence_mtd.traffic_mb,4291.0,data/core/all_rounds.csv,mean MP-SPDZ global data sent per round (MB),recomputed
+overhead.e1.smpc_mtd.round_seconds,42.36,data/core/all_rounds.csv,mean over 3 runs x 10 rounds,recomputed
+overhead.e1.smpc_mtd.protocol_seconds,12.0,data/core/all_rounds.csv,mean MP-SPDZ protocol seconds (max over parties),recomputed
+overhead.e1.smpc_mtd.traffic_mb,1729.0,data/core/all_rounds.csv,mean MP-SPDZ global data sent per round (MB),recomputed
+overhead.e1.smpc_only.round_seconds,42.4,data/core/all_rounds.csv,mean over 3 runs x 10 rounds,recomputed
+overhead.e1.smpc_only.protocol_seconds,11.97,data/core/all_rounds.csv,mean MP-SPDZ protocol seconds (max over parties),recomputed
+overhead.e1.smpc_only.traffic_mb,1729.0,data/core/all_rounds.csv,mean MP-SPDZ global data sent per round (MB),recomputed
+e1.smpc_defence_mtd.backdoor.rejection_tpr_pooled,0.806,data/core/all_rounds.csv,pooled: rejected malicious participations / malicious participations over all seeds,recomputed
+e1.smpc_defence_mtd.backdoor.rejection_tpr,0.833,data/core/all_rounds.csv,mean over seeds of the per-run rejection TPR (definition used in the thesis),matches report
+e1.smpc_defence_mtd.backdoor.rejection_fpr,0.0,data/core/all_rounds.csv,rejected honest participations / honest participations,recomputed
+e1.smpc_defence_mtd.label_flip.rejection_tpr_pooled,0.5,data/core/all_rounds.csv,pooled: rejected malicious participations / malicious participations over all seeds,recomputed
+e1.smpc_defence_mtd.label_flip.rejection_tpr,0.443,data/core/all_rounds.csv,mean over seeds of the per-run rejection TPR (definition used in the thesis),matches report
+e1.smpc_defence_mtd.label_flip.rejection_fpr,0.0,data/core/all_rounds.csv,rejected honest participations / honest participations,recomputed
+e1.smpc_defence_mtd.none.rejection_fpr,0.0,data/core/all_rounds.csv,rejected honest participations / honest participations,recomputed
+e1.smpc_defence_mtd.random_noise.rejection_tpr_pooled,0.765,data/core/all_rounds.csv,pooled: rejected malicious participations / malicious participations over all seeds,recomputed
+e1.smpc_defence_mtd.random_noise.rejection_tpr,0.77,data/core/all_rounds.csv,mean over seeds of the per-run rejection TPR (definition used in the thesis),matches report
+e1.smpc_defence_mtd.random_noise.rejection_fpr,0.0,data/core/all_rounds.csv,rejected honest participations / honest participations,recomputed
+e1.smpc_defence_mtd.scaled_replacement.rejection_tpr_pooled,1.0,data/core/all_rounds.csv,pooled: rejected malicious participations / malicious participations over all seeds,recomputed
+e1.smpc_defence_mtd.scaled_replacement.rejection_tpr,1.0,data/core/all_rounds.csv,mean over seeds of the per-run rejection TPR (definition used in the thesis),matches report
+e1.smpc_defence_mtd.scaled_replacement.rejection_fpr,0.0,data/core/all_rounds.csv,rejected honest participations / honest participations,recomputed
+e1.smpc_defence_mtd.sign_flip.rejection_tpr_pooled,1.0,data/core/all_rounds.csv,pooled: rejected malicious participations / malicious participations over all seeds,recomputed
+e1.smpc_defence_mtd.sign_flip.rejection_tpr,1.0,data/core/all_rounds.csv,mean over seeds of the per-run rejection TPR (definition used in the thesis),matches report
+e1.smpc_defence_mtd.sign_flip.rejection_fpr,0.0,data/core/all_rounds.csv,rejected honest participations / honest participations,recomputed
+pilot.sign_agree.auc.single_attacker.adaptive_backdoor,0.72,data/mtd_defence/pilot_scores.csv,"AUC (honest agreement > attacker agreement), cohorts with exactly one attacker",recomputed
+pilot.sign_agree.auc.single_attacker.backdoor,0.676,data/mtd_defence/pilot_scores.csv,"AUC (honest agreement > attacker agreement), cohorts with exactly one attacker",recomputed
+pilot.sign_agree.auc.single_attacker.label_flip,0.982,data/mtd_defence/pilot_scores.csv,"AUC (honest agreement > attacker agreement), cohorts with exactly one attacker",recomputed
+pilot.sign_agree.auc.single_attacker.random_noise,0.857,data/mtd_defence/pilot_scores.csv,"AUC (honest agreement > attacker agreement), cohorts with exactly one attacker",recomputed
+pilot.sign_agree.auc.single_attacker.scaled_replacement,0.838,data/mtd_defence/pilot_scores.csv,"AUC (honest agreement > attacker agreement), cohorts with exactly one attacker",recomputed
+pilot.sign_agree.auc.single_attacker.sign_flip,0.984,data/mtd_defence/pilot_scores.csv,"AUC (honest agreement > attacker agreement), cohorts with exactly one attacker",recomputed
+pilot.sign_agree.auc.multi_attacker.adaptive_backdoor,0.375,data/mtd_defence/pilot_scores.csv,"AUC, cohorts with two or more attackers",recomputed
+pilot.sign_agree.auc.multi_attacker.backdoor,0.463,data/mtd_defence/pilot_scores.csv,"AUC, cohorts with two or more attackers",recomputed
+pilot.sign_agree.auc.multi_attacker.label_flip,0.219,data/mtd_defence/pilot_scores.csv,"AUC, cohorts with two or more attackers",recomputed
+pilot.sign_agree.auc.multi_attacker.random_noise,0.809,data/mtd_defence/pilot_scores.csv,"AUC, cohorts with two or more attackers",recomputed
+pilot.sign_agree.auc.multi_attacker.scaled_replacement,0.414,data/mtd_defence/pilot_scores.csv,"AUC, cohorts with two or more attackers",recomputed
+pilot.sign_agree.auc.multi_attacker.sign_flip,0.612,data/mtd_defence/pilot_scores.csv,"AUC, cohorts with two or more attackers",recomputed
+pilot.sign_agree.honest_median,0.608,data/mtd_defence/pilot_scores.csv,median agreement of honest participations,recomputed
+pilot.sign_agree.honest_p05,0.526,data/mtd_defence/pilot_scores.csv,5th percentile of honest agreement,recomputed
+pilot.sign_agree.honest_fpr_tau0.5,0.009,data/mtd_defence/pilot_scores.csv,share of honest participations with agreement < 0.5,recomputed
+pilot.sign_agree.honest_fpr_tau0.52,0.036,data/mtd_defence/pilot_scores.csv,share of honest participations with agreement < 0.52,recomputed
+pilot.sign_agree_0.25_single.auc.single_attacker.adaptive_backdoor,0.705,data/mtd_defence/pilot_scores.csv,"AUC (honest agreement > attacker agreement), cohorts with exactly one attacker",recomputed
+pilot.sign_agree_0.25_single.auc.single_attacker.backdoor,0.662,data/mtd_defence/pilot_scores.csv,"AUC (honest agreement > attacker agreement), cohorts with exactly one attacker",recomputed
+pilot.sign_agree_0.25_single.auc.single_attacker.label_flip,0.983,data/mtd_defence/pilot_scores.csv,"AUC (honest agreement > attacker agreement), cohorts with exactly one attacker",recomputed
+pilot.sign_agree_0.25_single.auc.single_attacker.random_noise,0.821,data/mtd_defence/pilot_scores.csv,"AUC (honest agreement > attacker agreement), cohorts with exactly one attacker",recomputed
+pilot.sign_agree_0.25_single.auc.single_attacker.scaled_replacement,0.827,data/mtd_defence/pilot_scores.csv,"AUC (honest agreement > attacker agreement), cohorts with exactly one attacker",recomputed
+pilot.sign_agree_0.25_single.auc.single_attacker.sign_flip,0.983,data/mtd_defence/pilot_scores.csv,"AUC (honest agreement > attacker agreement), cohorts with exactly one attacker",recomputed
+pilot.sign_agree_0.25_single.auc.multi_attacker.adaptive_backdoor,0.39,data/mtd_defence/pilot_scores.csv,"AUC, cohorts with two or more attackers",recomputed
+pilot.sign_agree_0.25_single.auc.multi_attacker.backdoor,0.47,data/mtd_defence/pilot_scores.csv,"AUC, cohorts with two or more attackers",recomputed
+pilot.sign_agree_0.25_single.auc.multi_attacker.label_flip,0.246,data/mtd_defence/pilot_scores.csv,"AUC, cohorts with two or more attackers",recomputed
+pilot.sign_agree_0.25_single.auc.multi_attacker.random_noise,0.743,data/mtd_defence/pilot_scores.csv,"AUC, cohorts with two or more attackers",recomputed
+pilot.sign_agree_0.25_single.auc.multi_attacker.scaled_replacement,0.42,data/mtd_defence/pilot_scores.csv,"AUC, cohorts with two or more attackers",recomputed
+pilot.sign_agree_0.25_single.auc.multi_attacker.sign_flip,0.606,data/mtd_defence/pilot_scores.csv,"AUC, cohorts with two or more attackers",recomputed
+pilot.sign_agree_0.25_single.honest_median,0.609,data/mtd_defence/pilot_scores.csv,median agreement of honest participations,recomputed
+pilot.sign_agree_0.25_single.honest_p05,0.518,data/mtd_defence/pilot_scores.csv,5th percentile of honest agreement,recomputed
+pilot.sign_agree_0.25_single.honest_fpr_tau0.5,0.02,data/mtd_defence/pilot_scores.csv,share of honest participations with agreement < 0.5,recomputed
+pilot.sign_agree_0.25_single.honest_fpr_tau0.52,0.053,data/mtd_defence/pilot_scores.csv,share of honest participations with agreement < 0.52,recomputed
+pilot.adaptive.baseline.attacker_norm_over_T_median,3.678,data/mtd_defence/pilot_scores.csv,"median norm / recomputed lower-median threshold of adaptive attackers in E2 baseline runs (n=30, range 3.18-5.55)",recomputed
+pilot.adaptive.plaintext_robust.attacker_norm_over_T_median,8.582,data/mtd_defence/pilot_scores.csv,"median norm / recomputed lower-median threshold of adaptive attackers in E2 plaintext_robust runs (n=30, range 3.39-10.55)",recomputed
+pilot.adaptive.smpc_clip.attacker_norm_over_T_median,1.108,data/mtd_defence/pilot_scores.csv,"median norm / recomputed lower-median threshold of adaptive attackers in E2 smpc_clip runs (n=30, range 0.44-1.22)",recomputed
+pilot.adaptive.smpc_defence_mtd.attacker_norm_over_T_median,1.0,data/mtd_defence/pilot_scores.csv,"median norm / recomputed lower-median threshold of adaptive attackers in E2 smpc_defence_mtd runs (n=29, range 0.90-1.84)",recomputed
+pilot.runs,175,data/mtd_defence/pilot_scores.csv,runs scored,recomputed
+pilot.participations,6308,data/mtd_defence/pilot_scores.csv,client participations scored,recomputed
+pilot.cohort_rounds,1576,data/mtd_defence/pilot_scores.csv,"distinct (run, round) cohorts",recomputed
+m2.baseline_norm_only.adaptive_backdoor.asr_mean,0.193,data/mtd_defence/m1_runs.csv + m2b_runs.csv,"seeds [101, 102, 103]",recomputed
+m2.baseline_norm_only.adaptive_backdoor.rejection_tpr_mean,0.0,data/mtd_defence/m1_runs.csv + m2b_runs.csv,mean over 3 seeds,recomputed
+m2.baseline_norm_only.evasive_backdoor.asr_mean,0.082,data/mtd_defence/m1_runs.csv + m2b_runs.csv,"seeds [101, 102, 103]",recomputed
+m2.baseline_norm_only.evasive_backdoor.rejection_tpr_mean,0.0,data/mtd_defence/m1_runs.csv + m2b_runs.csv,mean over 3 seeds,recomputed
+m2.baseline_norm_only.label_flip.asr_mean,0.022,data/mtd_defence/m1_runs.csv + m2b_runs.csv,"seeds [101, 102, 103]",recomputed
+m2.baseline_norm_only.label_flip.rejection_tpr_mean,0.767,data/mtd_defence/m1_runs.csv + m2b_runs.csv,mean over 3 seeds,recomputed
+m1.reference_defence.adaptive_backdoor.asr_mean,0.082,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_defence.adaptive_backdoor.rejection_tpr_mean,0.0,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_defence.backdoor.asr_mean,0.024,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_defence.backdoor.rejection_tpr_mean,1.0,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_defence.evasive_backdoor.asr_mean,0.061,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_defence.evasive_backdoor.rejection_tpr_mean,0.0,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_defence.label_flip.asr_mean,0.02,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_defence.label_flip.rejection_tpr_mean,0.75,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_defence.none.asr_mean,0.021,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_defence.none.rejection_tpr_mean,nan,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_defence_mtd.adaptive_backdoor.asr_mean,0.405,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_defence_mtd.adaptive_backdoor.rejection_tpr_mean,0.0,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_defence_mtd.backdoor.asr_mean,0.016,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_defence_mtd.backdoor.rejection_tpr_mean,1.0,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_defence_mtd.evasive_backdoor.asr_mean,0.329,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_defence_mtd.evasive_backdoor.rejection_tpr_mean,0.0,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_defence_mtd.label_flip.asr_mean,0.021,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_defence_mtd.label_flip.rejection_tpr_mean,0.611,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_defence_mtd.none.asr_mean,0.02,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_defence_mtd.none.rejection_tpr_mean,nan,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_direction_all.adaptive_backdoor.asr_mean,0.056,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_direction_all.adaptive_backdoor.rejection_tpr_mean,0.05,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_direction_all.backdoor.asr_mean,0.024,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_direction_all.backdoor.rejection_tpr_mean,1.0,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_direction_all.evasive_backdoor.asr_mean,0.023,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_direction_all.evasive_backdoor.rejection_tpr_mean,0.05,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_direction_all.label_flip.asr_mean,0.017,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_direction_all.label_flip.rejection_tpr_mean,0.9,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_direction_all.none.asr_mean,0.021,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_direction_all.none.rejection_tpr_mean,nan,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_direction_public.adaptive_backdoor.asr_mean,0.065,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_direction_public.adaptive_backdoor.rejection_tpr_mean,0.1,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_direction_public.backdoor.asr_mean,0.021,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_direction_public.backdoor.rejection_tpr_mean,1.0,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_direction_public.evasive_backdoor.asr_mean,0.044,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_direction_public.evasive_backdoor.rejection_tpr_mean,0.0,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_direction_public.label_flip.asr_mean,0.017,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_direction_public.label_flip.rejection_tpr_mean,0.9,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_direction_public.none.asr_mean,0.021,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_direction_public.none.rejection_tpr_mean,nan,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_direction_secret.adaptive_backdoor.asr_mean,0.057,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_direction_secret.adaptive_backdoor.rejection_tpr_mean,0.1,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_direction_secret.backdoor.asr_mean,0.024,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_direction_secret.backdoor.rejection_tpr_mean,1.0,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_direction_secret.evasive_backdoor.asr_mean,0.061,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_direction_secret.evasive_backdoor.rejection_tpr_mean,0.0,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_direction_secret.label_flip.asr_mean,0.017,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_direction_secret.label_flip.rejection_tpr_mean,0.9,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_direction_secret.none.asr_mean,0.021,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_direction_secret.none.rejection_tpr_mean,nan,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_direction_secret_mtd.adaptive_backdoor.asr_mean,0.295,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_direction_secret_mtd.adaptive_backdoor.rejection_tpr_mean,0.062,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_direction_secret_mtd.backdoor.asr_mean,0.031,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_direction_secret_mtd.backdoor.rejection_tpr_mean,0.893,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_direction_secret_mtd.evasive_backdoor.asr_mean,0.058,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_direction_secret_mtd.evasive_backdoor.rejection_tpr_mean,0.0,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_direction_secret_mtd.label_flip.asr_mean,0.023,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_direction_secret_mtd.label_flip.rejection_tpr_mean,0.639,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_direction_secret_mtd.none.asr_mean,0.028,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_direction_secret_mtd.none.rejection_tpr_mean,nan,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_direction_secret_t52.adaptive_backdoor.asr_mean,0.038,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_direction_secret_t52.adaptive_backdoor.rejection_tpr_mean,0.35,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_direction_secret_t52.backdoor.asr_mean,0.026,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_direction_secret_t52.backdoor.rejection_tpr_mean,1.0,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_direction_secret_t52.evasive_backdoor.asr_mean,0.058,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_direction_secret_t52.evasive_backdoor.rejection_tpr_mean,0.05,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_direction_secret_t52.label_flip.asr_mean,0.017,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_direction_secret_t52.label_flip.rejection_tpr_mean,0.9,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_direction_secret_t52.none.asr_mean,0.021,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m1.reference_direction_secret_t52.none.rejection_tpr_mean,nan,data/mtd_defence/m1_runs.csv,mean over 2 seeds,recomputed
+m2.baseline_norm_only.adaptive_backdoor.asr_seed_min,0.064,data/mtd_defence/m1/m2/m2b runs,smallest per-seed ASR,recomputed
+m2.baseline_norm_only.adaptive_backdoor.asr_seed_max,0.417,data/mtd_defence/m1/m2/m2b runs,largest per-seed ASR,recomputed
+m2.reference_direction_secret_t52.adaptive_backdoor.asr_seed_min,0.04,data/mtd_defence/m1/m2/m2b runs,smallest per-seed ASR,recomputed
+m2.reference_direction_secret_t52.adaptive_backdoor.asr_seed_max,0.064,data/mtd_defence/m1/m2/m2b runs,largest per-seed ASR,recomputed
+m2.reference_direction_all_t52.adaptive_backdoor.asr_mean,0.154,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_all_t52.adaptive_backdoor.rejection_tpr_mean,0.2,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_all_t52.adaptive_backdoor.direction_fpr_mean,0.044,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_all_t52.backdoor.asr_mean,0.024,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_all_t52.backdoor.rejection_tpr_mean,1.0,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_all_t52.backdoor.direction_fpr_mean,0.022,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_all_t52.evasive_backdoor.asr_mean,0.021,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_all_t52.evasive_backdoor.rejection_tpr_mean,0.033,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_all_t52.evasive_backdoor.direction_fpr_mean,0.0,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_all_t52.label_flip.asr_mean,0.017,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_all_t52.label_flip.rejection_tpr_mean,0.933,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_all_t52.label_flip.direction_fpr_mean,0.022,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_all_t52.none.asr_mean,0.022,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_all_t52.none.rejection_tpr_mean,nan,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_all_t52.none.direction_fpr_mean,0.0,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_public_t52.adaptive_backdoor.asr_mean,0.101,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_public_t52.adaptive_backdoor.rejection_tpr_mean,0.2,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_public_t52.adaptive_backdoor.direction_fpr_mean,0.022,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_public_t52.backdoor.asr_mean,0.023,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_public_t52.backdoor.rejection_tpr_mean,1.0,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_public_t52.backdoor.direction_fpr_mean,0.033,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_public_t52.evasive_backdoor.asr_mean,0.088,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_public_t52.evasive_backdoor.rejection_tpr_mean,0.0,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_public_t52.evasive_backdoor.direction_fpr_mean,0.011,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_public_t52.label_flip.asr_mean,0.021,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_public_t52.label_flip.rejection_tpr_mean,0.933,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_public_t52.label_flip.direction_fpr_mean,0.033,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_public_t52.none.asr_mean,0.022,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_public_t52.none.rejection_tpr_mean,nan,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_public_t52.none.direction_fpr_mean,0.0,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_secret10_t52.adaptive_backdoor.asr_mean,0.191,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_secret10_t52.adaptive_backdoor.rejection_tpr_mean,0.1,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_secret10_t52.adaptive_backdoor.direction_fpr_mean,0.033,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_secret10_t52.backdoor.asr_mean,0.023,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_secret10_t52.backdoor.rejection_tpr_mean,1.0,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_secret10_t52.backdoor.direction_fpr_mean,0.033,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_secret10_t52.evasive_backdoor.asr_mean,0.073,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_secret10_t52.evasive_backdoor.rejection_tpr_mean,0.1,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_secret10_t52.evasive_backdoor.direction_fpr_mean,0.056,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_secret10_t52.label_flip.asr_mean,0.025,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_secret10_t52.label_flip.rejection_tpr_mean,0.9,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_secret10_t52.label_flip.direction_fpr_mean,0.111,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_secret10_t52.none.asr_mean,0.024,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_secret10_t52.none.rejection_tpr_mean,nan,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_secret10_t52.none.direction_fpr_mean,0.05,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_secret_t52.adaptive_backdoor.asr_mean,0.056,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_secret_t52.adaptive_backdoor.rejection_tpr_mean,0.2,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_secret_t52.adaptive_backdoor.direction_fpr_mean,0.0,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_secret_t52.backdoor.asr_mean,0.022,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_secret_t52.backdoor.rejection_tpr_mean,1.0,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_secret_t52.backdoor.direction_fpr_mean,0.044,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_secret_t52.evasive_backdoor.asr_mean,0.071,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_secret_t52.evasive_backdoor.rejection_tpr_mean,0.167,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_secret_t52.evasive_backdoor.direction_fpr_mean,0.044,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_secret_t52.label_flip.asr_mean,0.02,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_secret_t52.label_flip.rejection_tpr_mean,0.933,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_secret_t52.label_flip.direction_fpr_mean,0.044,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_secret_t52.none.asr_mean,0.023,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_secret_t52.none.rejection_tpr_mean,nan,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+m2.reference_direction_secret_t52.none.direction_fpr_mean,0.025,data/mtd_defence/m2_runs.csv,mean over 3 seeds,recomputed
+p3.reference_defence.adaptive_backdoor.asr_mean,0.493,data/mtd_defence/p3_runs.csv,mean over 5 seeds,recomputed
+p3.reference_defence_mtd.adaptive_backdoor.asr_mean,0.239,data/mtd_defence/p3_runs.csv,mean over 5 seeds,recomputed
+p3.reference_direction_secret_mtd_t52.adaptive_backdoor.asr_mean,0.132,data/mtd_defence/p3_runs.csv,mean over 5 seeds,recomputed
+p3.reference_direction_secret_t52.adaptive_backdoor.asr_mean,0.314,data/mtd_defence/p3_runs.csv,mean over 5 seeds,recomputed
+p3.reference_defence.adaptive_backdoor.accuracy_mean,0.823,data/mtd_defence/p3_runs.csv,mean over 5 seeds,recomputed
+p3.reference_defence_mtd.adaptive_backdoor.accuracy_mean,0.82,data/mtd_defence/p3_runs.csv,mean over 5 seeds,recomputed
+p3.reference_direction_secret_mtd_t52.adaptive_backdoor.accuracy_mean,0.82,data/mtd_defence/p3_runs.csv,mean over 5 seeds,recomputed
+p3.reference_direction_secret_t52.adaptive_backdoor.accuracy_mean,0.82,data/mtd_defence/p3_runs.csv,mean over 5 seeds,recomputed
+p3.diff.adaptive_backdoor.vs.reference_defence,-0.362,data/mtd_defence/p3_runs.csv,mean paired difference (full minus other),matches report
+p3.signs.adaptive_backdoor.vs.reference_defence,5/0,data/mtd_defence/p3_runs.csv,seeds with lower / higher ASR for the full combination,recomputed
+p3.diff.adaptive_backdoor.vs.reference_defence_mtd,-0.107,data/mtd_defence/p3_runs.csv,mean paired difference (full minus other),matches report
+p3.signs.adaptive_backdoor.vs.reference_defence_mtd,4/0,data/mtd_defence/p3_runs.csv,seeds with lower / higher ASR for the full combination,recomputed
+p3.diff.adaptive_backdoor.vs.reference_direction_secret_t52,-0.182,data/mtd_defence/p3_runs.csv,mean paired difference (full minus other),matches report
+p3.signs.adaptive_backdoor.vs.reference_direction_secret_t52,4/1,data/mtd_defence/p3_runs.csv,seeds with lower / higher ASR for the full combination,recomputed
+p3.reference_defence.adaptive_backdoor__jit4.asr_mean,0.979,data/mtd_defence/p3_runs.csv,mean over 5 seeds,recomputed
+p3.reference_defence_mtd.adaptive_backdoor__jit4.asr_mean,0.651,data/mtd_defence/p3_runs.csv,mean over 5 seeds,recomputed
+p3.reference_direction_secret_mtd_t52.adaptive_backdoor__jit4.asr_mean,0.568,data/mtd_defence/p3_runs.csv,mean over 5 seeds,recomputed
+p3.reference_direction_secret_t52.adaptive_backdoor__jit4.asr_mean,0.979,data/mtd_defence/p3_runs.csv,mean over 5 seeds,recomputed
+p3.reference_defence.adaptive_backdoor__jit4.accuracy_mean,0.662,data/mtd_defence/p3_runs.csv,mean over 5 seeds,recomputed
+p3.reference_defence_mtd.adaptive_backdoor__jit4.accuracy_mean,0.816,data/mtd_defence/p3_runs.csv,mean over 5 seeds,recomputed
+p3.reference_direction_secret_mtd_t52.adaptive_backdoor__jit4.accuracy_mean,0.819,data/mtd_defence/p3_runs.csv,mean over 5 seeds,recomputed
+p3.reference_direction_secret_t52.adaptive_backdoor__jit4.accuracy_mean,0.662,data/mtd_defence/p3_runs.csv,mean over 5 seeds,recomputed
+p3.diff.adaptive_backdoor__jit4.vs.reference_defence,-0.411,data/mtd_defence/p3_runs.csv,mean paired difference (full minus other),matches report
+p3.signs.adaptive_backdoor__jit4.vs.reference_defence,5/0,data/mtd_defence/p3_runs.csv,seeds with lower / higher ASR for the full combination,recomputed
+p3.diff.adaptive_backdoor__jit4.vs.reference_defence_mtd,-0.083,data/mtd_defence/p3_runs.csv,mean paired difference (full minus other),matches report
+p3.signs.adaptive_backdoor__jit4.vs.reference_defence_mtd,4/1,data/mtd_defence/p3_runs.csv,seeds with lower / higher ASR for the full combination,recomputed
+p3.diff.adaptive_backdoor__jit4.vs.reference_direction_secret_t52,-0.411,data/mtd_defence/p3_runs.csv,mean paired difference (full minus other),matches report
+p3.signs.adaptive_backdoor__jit4.vs.reference_direction_secret_t52,5/0,data/mtd_defence/p3_runs.csv,seeds with lower / higher ASR for the full combination,recomputed
+p3.reference_defence.evasive_backdoor.asr_mean,0.177,data/mtd_defence/p3_runs.csv,mean over 5 seeds,recomputed
+p3.reference_defence_mtd.evasive_backdoor.asr_mean,0.143,data/mtd_defence/p3_runs.csv,mean over 5 seeds,recomputed
+p3.reference_direction_secret_mtd_t52.evasive_backdoor.asr_mean,0.067,data/mtd_defence/p3_runs.csv,mean over 5 seeds,recomputed
+p3.reference_direction_secret_t52.evasive_backdoor.asr_mean,0.085,data/mtd_defence/p3_runs.csv,mean over 5 seeds,recomputed
+p3.reference_defence.evasive_backdoor.accuracy_mean,0.823,data/mtd_defence/p3_runs.csv,mean over 5 seeds,recomputed
+p3.reference_defence_mtd.evasive_backdoor.accuracy_mean,0.823,data/mtd_defence/p3_runs.csv,mean over 5 seeds,recomputed
+p3.reference_direction_secret_mtd_t52.evasive_backdoor.accuracy_mean,0.825,data/mtd_defence/p3_runs.csv,mean over 5 seeds,recomputed
+p3.reference_direction_secret_t52.evasive_backdoor.accuracy_mean,0.822,data/mtd_defence/p3_runs.csv,mean over 5 seeds,recomputed
+p3.diff.evasive_backdoor.vs.reference_defence,-0.11,data/mtd_defence/p3_runs.csv,mean paired difference (full minus other),matches report
+p3.signs.evasive_backdoor.vs.reference_defence,4/1,data/mtd_defence/p3_runs.csv,seeds with lower / higher ASR for the full combination,recomputed
+p3.diff.evasive_backdoor.vs.reference_defence_mtd,-0.077,data/mtd_defence/p3_runs.csv,mean paired difference (full minus other),matches report
+p3.signs.evasive_backdoor.vs.reference_defence_mtd,2/0,data/mtd_defence/p3_runs.csv,seeds with lower / higher ASR for the full combination,recomputed
+p3.diff.evasive_backdoor.vs.reference_direction_secret_t52,-0.018,data/mtd_defence/p3_runs.csv,mean paired difference (full minus other),matches report
+p3.signs.evasive_backdoor.vs.reference_direction_secret_t52,4/1,data/mtd_defence/p3_runs.csv,seeds with lower / higher ASR for the full combination,recomputed
+p3.reference_defence.none.asr_mean,0.02,data/mtd_defence/p3_runs.csv,mean over 5 seeds,recomputed
+p3.reference_defence_mtd.none.asr_mean,0.019,data/mtd_defence/p3_runs.csv,mean over 5 seeds,recomputed
+p3.reference_direction_secret_mtd_t52.none.asr_mean,0.018,data/mtd_defence/p3_runs.csv,mean over 5 seeds,recomputed
+p3.reference_direction_secret_t52.none.asr_mean,0.02,data/mtd_defence/p3_runs.csv,mean over 5 seeds,recomputed
+p3.reference_defence.none.accuracy_mean,0.835,data/mtd_defence/p3_runs.csv,mean over 5 seeds,recomputed
+p3.reference_defence_mtd.none.accuracy_mean,0.834,data/mtd_defence/p3_runs.csv,mean over 5 seeds,recomputed
+p3.reference_direction_secret_mtd_t52.none.accuracy_mean,0.835,data/mtd_defence/p3_runs.csv,mean over 5 seeds,recomputed
+p3.reference_direction_secret_t52.none.accuracy_mean,0.833,data/mtd_defence/p3_runs.csv,mean over 5 seeds,recomputed
+p3.diff.none.vs.reference_defence,-0.002,data/mtd_defence/p3_runs.csv,mean paired difference (full minus other),matches report
+p3.signs.none.vs.reference_defence,3/2,data/mtd_defence/p3_runs.csv,seeds with lower / higher ASR for the full combination,recomputed
+p3.diff.none.vs.reference_defence_mtd,-0.001,data/mtd_defence/p3_runs.csv,mean paired difference (full minus other),matches report
+p3.signs.none.vs.reference_defence_mtd,1/2,data/mtd_defence/p3_runs.csv,seeds with lower / higher ASR for the full combination,recomputed
+p3.diff.none.vs.reference_direction_secret_t52,-0.002,data/mtd_defence/p3_runs.csv,mean paired difference (full minus other),matches report
+p3.signs.none.vs.reference_direction_secret_t52,3/2,data/mtd_defence/p3_runs.csv,seeds with lower / higher ASR for the full combination,recomputed
+p3.mtd_conditions_identical_exposure,1,data/mtd_defence/p3_runs.csv,"1 if both MTD conditions had identical attacker participations in every (attack, seed)",recomputed
+f1.adaptive_backdoor.asr_mean,0.217,data/mtd_defence/f1_runs.csv,mean over 3 seeds,recomputed
+f1.adaptive_backdoor.asr_min,0.019,data/mtd_defence/f1_runs.csv,min over seeds,recomputed
+f1.adaptive_backdoor.asr_max,0.599,data/mtd_defence/f1_runs.csv,max over seeds,recomputed
+f1.adaptive_backdoor.accuracy_mean,0.822,data/mtd_defence/f1_runs.csv,mean over 3 seeds,recomputed
+f1.adaptive_backdoor.rejection_tpr_mean,0.3,data/mtd_defence/f1_runs.csv,mean over 3 seeds,recomputed
+f1.adaptive_backdoor.rejection_fpr_mean,0.032,data/mtd_defence/f1_runs.csv,mean over 3 seeds,recomputed
+f1.adaptive_backdoor__jit4.asr_mean,0.68,data/mtd_defence/f1_runs.csv,mean over 3 seeds,recomputed
+f1.adaptive_backdoor__jit4.asr_min,0.586,data/mtd_defence/f1_runs.csv,min over seeds,recomputed
+f1.adaptive_backdoor__jit4.asr_max,0.832,data/mtd_defence/f1_runs.csv,max over seeds,recomputed
+f1.adaptive_backdoor__jit4.accuracy_mean,0.81,data/mtd_defence/f1_runs.csv,mean over 3 seeds,recomputed
+f1.adaptive_backdoor__jit4.rejection_tpr_mean,0.044,data/mtd_defence/f1_runs.csv,mean over 3 seeds,recomputed
+f1.adaptive_backdoor__jit4.rejection_fpr_mean,0.0,data/mtd_defence/f1_runs.csv,mean over 3 seeds,recomputed
+f1.evasive_backdoor.asr_mean,0.153,data/mtd_defence/f1_runs.csv,mean over 3 seeds,recomputed
+f1.evasive_backdoor.asr_min,0.04,data/mtd_defence/f1_runs.csv,min over seeds,recomputed
+f1.evasive_backdoor.asr_max,0.324,data/mtd_defence/f1_runs.csv,max over seeds,recomputed
+f1.evasive_backdoor.accuracy_mean,0.825,data/mtd_defence/f1_runs.csv,mean over 3 seeds,recomputed
+f1.evasive_backdoor.rejection_tpr_mean,0.044,data/mtd_defence/f1_runs.csv,mean over 3 seeds,recomputed
+f1.evasive_backdoor.rejection_fpr_mean,0.032,data/mtd_defence/f1_runs.csv,mean over 3 seeds,recomputed
+f1.label_flip.asr_mean,0.022,data/mtd_defence/f1_runs.csv,mean over 3 seeds,recomputed
+f1.label_flip.asr_min,0.013,data/mtd_defence/f1_runs.csv,min over seeds,recomputed
+f1.label_flip.asr_max,0.029,data/mtd_defence/f1_runs.csv,max over seeds,recomputed
+f1.label_flip.accuracy_mean,0.833,data/mtd_defence/f1_runs.csv,mean over 3 seeds,recomputed
+f1.label_flip.rejection_tpr_mean,0.877,data/mtd_defence/f1_runs.csv,mean over 3 seeds,recomputed
+f1.label_flip.rejection_fpr_mean,0.051,data/mtd_defence/f1_runs.csv,mean over 3 seeds,recomputed
+f1.none.asr_mean,0.019,data/mtd_defence/f1_runs.csv,mean over 3 seeds,recomputed
+f1.none.asr_min,0.015,data/mtd_defence/f1_runs.csv,min over seeds,recomputed
+f1.none.asr_max,0.023,data/mtd_defence/f1_runs.csv,max over seeds,recomputed
+f1.none.accuracy_mean,0.833,data/mtd_defence/f1_runs.csv,mean over 3 seeds,recomputed
+f1.none.rejection_tpr_mean,nan,data/mtd_defence/f1_runs.csv,mean over 3 seeds,recomputed
+f1.none.rejection_fpr_mean,0.01,data/mtd_defence/f1_runs.csv,mean over 3 seeds,recomputed
+m3.reference_defence.adaptive_backdoor.asr_mean,0.494,data/mtd_defence/m3_runs.csv,mean over 3 seeds,recomputed
+m3.reference_defence.adaptive_backdoor__jit4.asr_mean,0.97,data/mtd_defence/m3_runs.csv,mean over 3 seeds,recomputed
+m3.reference_defence.evasive_backdoor.asr_mean,0.134,data/mtd_defence/m3_runs.csv,mean over 3 seeds,recomputed
+m3.reference_defence.none.asr_mean,0.02,data/mtd_defence/m3_runs.csv,mean over 3 seeds,recomputed
+m3.reference_defence_mtd.adaptive_backdoor.asr_mean,0.38,data/mtd_defence/m3_runs.csv,mean over 3 seeds,recomputed
+m3.reference_defence_mtd.adaptive_backdoor__jit4.asr_mean,0.628,data/mtd_defence/m3_runs.csv,mean over 3 seeds,recomputed
+m3.reference_defence_mtd.evasive_backdoor.asr_mean,0.115,data/mtd_defence/m3_runs.csv,mean over 3 seeds,recomputed
+m3.reference_defence_mtd.none.asr_mean,0.016,data/mtd_defence/m3_runs.csv,mean over 3 seeds,recomputed
+m3.reference_direction_secret_mtd_t52.adaptive_backdoor.asr_mean,0.389,data/mtd_defence/m3_runs.csv,mean over 3 seeds,recomputed
+m3.reference_direction_secret_mtd_t52.adaptive_backdoor__jit4.asr_mean,0.217,data/mtd_defence/m3_runs.csv,mean over 3 seeds,recomputed
+m3.reference_direction_secret_mtd_t52.evasive_backdoor.asr_mean,0.079,data/mtd_defence/m3_runs.csv,mean over 3 seeds,recomputed
+m3.reference_direction_secret_mtd_t52.none.asr_mean,0.021,data/mtd_defence/m3_runs.csv,mean over 3 seeds,recomputed
+m3.reference_direction_secret_t52.adaptive_backdoor.asr_mean,0.184,data/mtd_defence/m3_runs.csv,mean over 3 seeds,recomputed
+m3.reference_direction_secret_t52.adaptive_backdoor__jit4.asr_mean,0.97,data/mtd_defence/m3_runs.csv,mean over 3 seeds,recomputed
+m3.reference_direction_secret_t52.evasive_backdoor.asr_mean,0.09,data/mtd_defence/m3_runs.csv,mean over 3 seeds,recomputed
+m3.reference_direction_secret_t52.none.asr_mean,0.023,data/mtd_defence/m3_runs.csv,mean over 3 seeds,recomputed
+sum_only.S=10^6 (original).differs,18,data/sum_only/pow2_vs_fedavg.csv,runs per verdict,recomputed
+sum_only.S=2^40 (rerun).identical,15,data/sum_only/pow2_vs_fedavg.csv,runs per verdict,recomputed
+sum_only.S=2^40 (rerun).identical until abort,3,data/sum_only/pow2_vs_fedavg.csv,runs per verdict,recomputed
+sum_only.original.max_abs_accuracy_difference,0.5129,data/sum_only/pow2_vs_fedavg.csv,largest per-run max |accuracy difference| vs FedAvg at S=10^6,recomputed
+direction_bench.none.protocol_seconds,21.1,data/mtd_defence/direction_benchmark.json,mean of 2 repetitions (party 0),recomputed
+direction_bench.none.traffic_gb,4.29,data/mtd_defence/direction_benchmark.json,"mean global data sent, GB",recomputed
+direction_bench.none.end_to_end_seconds,25.4,data/mtd_defence/direction_benchmark.json,mean of 2 repetitions,recomputed
+direction_bench.none.bit_exact,1,data/mtd_defence/direction_benchmark.json,1 if every repetition matched the reference,recomputed
+direction_bench.10pct.protocol_seconds,70.4,data/mtd_defence/direction_benchmark.json,mean of 2 repetitions (party 0),recomputed
+direction_bench.10pct.traffic_gb,14.2,data/mtd_defence/direction_benchmark.json,"mean global data sent, GB",recomputed
+direction_bench.10pct.end_to_end_seconds,75.1,data/mtd_defence/direction_benchmark.json,mean of 2 repetitions,recomputed
+direction_bench.10pct.bit_exact,1,data/mtd_defence/direction_benchmark.json,1 if every repetition matched the reference,recomputed
+direction_bench.25pct.protocol_seconds,147.6,data/mtd_defence/direction_benchmark.json,mean of 2 repetitions (party 0),recomputed
+direction_bench.25pct.traffic_gb,29.46,data/mtd_defence/direction_benchmark.json,"mean global data sent, GB",recomputed
+direction_bench.25pct.end_to_end_seconds,153.5,data/mtd_defence/direction_benchmark.json,mean of 2 repetitions,recomputed
+direction_bench.25pct.bit_exact,1,data/mtd_defence/direction_benchmark.json,1 if every repetition matched the reference,recomputed
+validation.v13.bit_exact,13/13,data/validation/scenario_summary_v13.csv,scenarios whose MPC output equals the reference exactly,recomputed
+validation.v20.bit_exact,20/20,data/mtd_defence/scenario_summary_v20.csv,scenarios whose MPC output equals the reference exactly,recomputed
+e6.fc_input.initial.individual.B1.share_ssim_ge_0.9,1.0,data/leakage/leakage_raw.csv,share of target images with SSIM >= 0.9,recomputed
+e6.fc_input.initial.individual.B2.share_ssim_ge_0.9,1.0,data/leakage/leakage_raw.csv,share of target images with SSIM >= 0.9,recomputed
+e6.fc_input.initial.individual.B4.share_ssim_ge_0.9,1.0,data/leakage/leakage_raw.csv,share of target images with SSIM >= 0.9,recomputed
+e6.fc_input.initial.individual.B8.share_ssim_ge_0.9,0.8,data/leakage/leakage_raw.csv,share of target images with SSIM >= 0.9,recomputed
+e6.fc_input.initial.secure_aggregate.B1.share_ssim_ge_0.9,1.0,data/leakage/leakage_raw.csv,share of target images with SSIM >= 0.9,recomputed
+e6.fc_input.initial.secure_aggregate.B2.share_ssim_ge_0.9,0.75,data/leakage/leakage_raw.csv,share of target images with SSIM >= 0.9,recomputed
+e6.fc_input.initial.secure_aggregate.B4.share_ssim_ge_0.9,0.31,data/leakage/leakage_raw.csv,share of target images with SSIM >= 0.9,recomputed
+e6.fc_input.initial.secure_aggregate.B8.share_ssim_ge_0.9,0.03,data/leakage/leakage_raw.csv,share of target images with SSIM >= 0.9,recomputed
+e6.fc_input.trained.individual.B1.share_ssim_ge_0.9,1.0,data/leakage/leakage_raw.csv,share of target images with SSIM >= 0.9,recomputed
+e6.fc_input.trained.individual.B2.share_ssim_ge_0.9,0.88,data/leakage/leakage_raw.csv,share of target images with SSIM >= 0.9,recomputed
+e6.fc_input.trained.individual.B4.share_ssim_ge_0.9,0.81,data/leakage/leakage_raw.csv,share of target images with SSIM >= 0.9,recomputed
+e6.fc_input.trained.individual.B8.share_ssim_ge_0.9,0.66,data/leakage/leakage_raw.csv,share of target images with SSIM >= 0.9,recomputed
+e6.fc_input.trained.secure_aggregate.B1.share_ssim_ge_0.9,0.75,data/leakage/leakage_raw.csv,share of target images with SSIM >= 0.9,recomputed
+e6.fc_input.trained.secure_aggregate.B2.share_ssim_ge_0.9,0.62,data/leakage/leakage_raw.csv,share of target images with SSIM >= 0.9,recomputed
+e6.fc_input.trained.secure_aggregate.B4.share_ssim_ge_0.9,0.41,data/leakage/leakage_raw.csv,share of target images with SSIM >= 0.9,recomputed
+e6.fc_input.trained.secure_aggregate.B8.share_ssim_ge_0.9,0.28,data/leakage/leakage_raw.csv,share of target images with SSIM >= 0.9,recomputed
+e6.optimisation.max_ssim,0.443,data/leakage/leakage_raw.csv,maximum SSIM over all trials and views,recomputed
+e3mc.R10.b1.deterministic.just_in_time.compromise_hit_rate,1.0,data/mtd_exposure/exposure_summary_R10.csv,mean over 200 trials,recomputed
+e3mc.R10.b2.deterministic.just_in_time.compromise_hit_rate,1.0,data/mtd_exposure/exposure_summary_R10.csv,mean over 200 trials,recomputed
+e3mc.R10.b3.deterministic.just_in_time.compromise_hit_rate,1.0,data/mtd_exposure/exposure_summary_R10.csv,mean over 200 trials,recomputed
+e3mc.R10.b1.deterministic.predictive.compromise_hit_rate,0.595,data/mtd_exposure/exposure_summary_R10.csv,mean over 200 trials,recomputed
+e3mc.R10.b2.deterministic.predictive.compromise_hit_rate,0.551,data/mtd_exposure/exposure_summary_R10.csv,mean over 200 trials,recomputed
+e3mc.R10.b3.deterministic.predictive.compromise_hit_rate,0.519,data/mtd_exposure/exposure_summary_R10.csv,mean over 200 trials,recomputed
+e3mc.R10.b1.deterministic.random.compromise_hit_rate,0.335,data/mtd_exposure/exposure_summary_R10.csv,mean over 200 trials,recomputed
+e3mc.R10.b2.deterministic.random.compromise_hit_rate,0.321,data/mtd_exposure/exposure_summary_R10.csv,mean over 200 trials,recomputed
+e3mc.R10.b3.deterministic.random.compromise_hit_rate,0.326,data/mtd_exposure/exposure_summary_R10.csv,mean over 200 trials,recomputed
+e3mc.R10.b1.secret.just_in_time.compromise_hit_rate,0.326,data/mtd_exposure/exposure_summary_R10.csv,mean over 200 trials,recomputed
+e3mc.R10.b2.secret.just_in_time.compromise_hit_rate,0.331,data/mtd_exposure/exposure_summary_R10.csv,mean over 200 trials,recomputed
+e3mc.R10.b3.secret.just_in_time.compromise_hit_rate,0.333,data/mtd_exposure/exposure_summary_R10.csv,mean over 200 trials,recomputed
+e3mc.R10.b1.secret.predictive.compromise_hit_rate,0.331,data/mtd_exposure/exposure_summary_R10.csv,mean over 200 trials,recomputed
+e3mc.R10.b2.secret.predictive.compromise_hit_rate,0.326,data/mtd_exposure/exposure_summary_R10.csv,mean over 200 trials,recomputed
+e3mc.R10.b3.secret.predictive.compromise_hit_rate,0.332,data/mtd_exposure/exposure_summary_R10.csv,mean over 200 trials,recomputed
+e3mc.R10.b1.secret.random.compromise_hit_rate,0.339,data/mtd_exposure/exposure_summary_R10.csv,mean over 200 trials,recomputed
+e3mc.R10.b2.secret.random.compromise_hit_rate,0.328,data/mtd_exposure/exposure_summary_R10.csv,mean over 200 trials,recomputed
+e3mc.R10.b3.secret.random.compromise_hit_rate,0.33,data/mtd_exposure/exposure_summary_R10.csv,mean over 200 trials,recomputed
+e3mc.R10.b1.static.just_in_time.compromise_hit_rate,1.0,data/mtd_exposure/exposure_summary_R10.csv,mean over 200 trials,recomputed
+e3mc.R10.b2.static.just_in_time.compromise_hit_rate,1.0,data/mtd_exposure/exposure_summary_R10.csv,mean over 200 trials,recomputed
+e3mc.R10.b3.static.just_in_time.compromise_hit_rate,1.0,data/mtd_exposure/exposure_summary_R10.csv,mean over 200 trials,recomputed
+e3mc.R10.b1.static.predictive.compromise_hit_rate,1.0,data/mtd_exposure/exposure_summary_R10.csv,mean over 200 trials,recomputed
+e3mc.R10.b2.static.predictive.compromise_hit_rate,1.0,data/mtd_exposure/exposure_summary_R10.csv,mean over 200 trials,recomputed
+e3mc.R10.b3.static.predictive.compromise_hit_rate,1.0,data/mtd_exposure/exposure_summary_R10.csv,mean over 200 trials,recomputed
+e3mc.R10.b1.static.random.compromise_hit_rate,0.355,data/mtd_exposure/exposure_summary_R10.csv,mean over 200 trials,recomputed
+e3mc.R10.b2.static.random.compromise_hit_rate,0.352,data/mtd_exposure/exposure_summary_R10.csv,mean over 200 trials,recomputed
+e3mc.R10.b3.static.random.compromise_hit_rate,0.353,data/mtd_exposure/exposure_summary_R10.csv,mean over 200 trials,recomputed
+bench.attempts,35,data/benchmarks/benchmark_results.csv,benchmark attempts,recomputed
+bench.completed,34,data/benchmarks/benchmark_results.csv,completed attempts,recomputed
+e1.baseline.label_flip.malicious_share_effective,0.406,data/core/all_rounds.csv,mean over seeds of the per-run mean malicious share of the applied update,matches report
+e1.baseline.sign_flip.malicious_share_effective,0.609,data/core/all_rounds.csv,mean over seeds of the per-run mean malicious share of the applied update,matches report
+e1.baseline.scaled_replacement.malicious_share_effective,0.551,data/core/all_rounds.csv,mean over seeds of the per-run mean malicious share of the applied update,matches report
+e1.baseline.random_noise.malicious_share_effective,0.559,data/core/all_rounds.csv,mean over seeds of the per-run mean malicious share of the applied update,matches report
+e1.baseline.backdoor.malicious_share_effective,0.616,data/core/all_rounds.csv,mean over seeds of the per-run mean malicious share of the applied update,matches report
+e1.smpc_clip.label_flip.malicious_share_effective,0.329,data/core/all_rounds.csv,mean over seeds of the per-run mean malicious share of the applied update,matches report
+e1.smpc_clip.sign_flip.malicious_share_effective,0.314,data/core/all_rounds.csv,mean over seeds of the per-run mean malicious share of the applied update,matches report
+e1.smpc_clip.scaled_replacement.malicious_share_effective,0.326,data/core/all_rounds.csv,mean over seeds of the per-run mean malicious share of the applied update,matches report
+e1.smpc_clip.random_noise.malicious_share_effective,0.348,data/core/all_rounds.csv,mean over seeds of the per-run mean malicious share of the applied update,matches report
+e1.smpc_clip.backdoor.malicious_share_effective,0.342,data/core/all_rounds.csv,mean over seeds of the per-run mean malicious share of the applied update,matches report
+e1.smpc_defence_mtd.label_flip.malicious_share_effective,0.161,data/core/all_rounds.csv,mean over seeds of the per-run mean malicious share of the applied update,matches report
+e1.smpc_defence_mtd.sign_flip.malicious_share_effective,0.0,data/core/all_rounds.csv,mean over seeds of the per-run mean malicious share of the applied update,matches report
+e1.smpc_defence_mtd.scaled_replacement.malicious_share_effective,0.0,data/core/all_rounds.csv,mean over seeds of the per-run mean malicious share of the applied update,matches report
+e1.smpc_defence_mtd.random_noise.malicious_share_effective,0.07,data/core/all_rounds.csv,mean over seeds of the per-run mean malicious share of the applied update,matches report
+e1.smpc_defence_mtd.backdoor.malicious_share_effective,0.061,data/core/all_rounds.csv,mean over seeds of the per-run mean malicious share of the applied update,matches report
+e1.smpc_defence_mtd.honest_clipped_share,0.371,data/core/all_rounds.csv,clipped honest participations / honest participations over 18 runs,recomputed
+e1.smpc_defence_mtd.honest_rejected,0,data/core/all_rounds.csv,rejected honest participations over all 18 runs,recomputed
+e2.smpc_defence_mtd.s101.attacker_clipped_share,0.7,data/core/all_rounds.csv,clipped attacker participations / attacker participations,recomputed
+e2.smpc_defence_mtd.s101.malicious_share_effective,0.293,data/core/all_rounds.csv,mean malicious share of the applied update,recomputed
+e2.smpc_defence_mtd.s101.attacker_rejected,0,data/core/all_rounds.csv,rejected attacker participations,recomputed
+e2.smpc_defence_mtd.s102.attacker_clipped_share,0.444,data/core/all_rounds.csv,clipped attacker participations / attacker participations,recomputed
+e2.smpc_defence_mtd.s102.malicious_share_effective,0.27,data/core/all_rounds.csv,mean malicious share of the applied update,recomputed
+e2.smpc_defence_mtd.s102.attacker_rejected,0,data/core/all_rounds.csv,rejected attacker participations,recomputed
+e2.smpc_defence_mtd.s103.attacker_clipped_share,0.3,data/core/all_rounds.csv,clipped attacker participations / attacker participations,recomputed
+e2.smpc_defence_mtd.s103.malicious_share_effective,0.295,data/core/all_rounds.csv,mean malicious share of the applied update,recomputed
+e2.smpc_defence_mtd.s103.attacker_rejected,0,data/core/all_rounds.csv,rejected attacker participations,recomputed
+reference.spdz2k_robust.runs,70,data/core/end_to_end_reference_check.csv,SPDZ2k runs of the robust program in E1-E5,recomputed
+reference.spdz2k_robust.rounds,700,data/core/end_to_end_reference_check.csv,rounds compared,recomputed
+reference.spdz2k_robust.max_abs_error,2.384185791015625e-07,data/core/end_to_end_reference_check.csv,largest absolute difference between applied update and exact reference,recomputed
+reference.spdz2k_vs_plaintext_robust.pairs,2,data/core/equivalence_checks.csv,seed pairs compared,recomputed
+reference.spdz2k_vs_plaintext_robust.max_difference,0.0,data/core/equivalence_checks.csv,"largest per-round difference in accuracy, loss and ASR",recomputed
+bench.robust.ms_per_parameter,5.88,data/benchmarks/benchmark_summary.csv,"protocol seconds per parameter, mean over d = 50,000 and 100,000",recomputed
+bench.robust.mb_per_parameter,1.265,data/benchmarks/benchmark_summary.csv,"traffic per parameter, mean over d = 50,000 and 100,000",recomputed
+bench.robust.triples_per_coordinate,12.99,data/benchmarks/benchmark_summary.csv,"slope of compiled triples between d = 50,000 and 100,000",recomputed
+bench.robust.random_bits,3836,data/benchmarks/benchmark_summary.csv,compiled random bits (independent of d),recomputed
+bench.sum_only.ms_per_parameter,2.49,data/benchmarks/benchmark_summary.csv,"protocol seconds per parameter, mean over d = 50,000 and 100,000",recomputed
+bench.sum_only.mb_per_parameter,0.534,data/benchmarks/benchmark_summary.csv,"traffic per parameter, mean over d = 50,000 and 100,000",recomputed
+bench.sum_only.triples_per_coordinate,5.02,data/benchmarks/benchmark_summary.csv,"slope of compiled triples between d = 50,000 and 250,000",recomputed
+bench.sum_only.random_bits,252,data/benchmarks/benchmark_summary.csv,compiled random bits (independent of d),recomputed
+bench.robust.d100000.total_seconds,591.8,data/benchmarks/benchmark_summary.csv,"end-to-end seconds of one robust round, d = 100,000",recomputed
+bench.sum_only.d250000.completed,0,data/benchmarks/benchmark_summary.csv,"completed attempts at d = 250,000 (stopped by the round timeout)",recomputed
+bench.robust.d2202.speedup_two_parties,1.77,data/benchmarks/benchmark_summary.csv,protocol time three parties / two parties,recomputed
+bench.robust.d2202.traffic_ratio_two_parties,0.334,data/benchmarks/benchmark_summary.csv,traffic two parties / three parties,recomputed
+bench.robust.completed_rounds,21,data/benchmarks/benchmark_summary.csv,completed rounds of the robust variants (all model sizes and party counts),recomputed
+bench.robust.all_bit_exact,1,data/benchmarks/benchmark_summary.csv,1 if every completed robust round matched the reference exactly,recomputed
+validation.colluding_cancellation_k4.aggregate_norm,1.425,data/mtd_defence/scenario_summary_v20.csv,norm of the decoded aggregate,recomputed
+validation.colluding_cancellation_k4.output_check_passed,0,data/mtd_defence/scenario_summary_v20.csv,1 if the coordinator's output check passed,recomputed
+validation.colluding_cancellation_k8.aggregate_norm,0.725,data/mtd_defence/scenario_summary_v20.csv,norm of the decoded aggregate,recomputed
+validation.colluding_cancellation_k8.output_check_passed,1,data/mtd_defence/scenario_summary_v20.csv,1 if the coordinator's output check passed,recomputed
+bench.sum_only.d2202.compile_seconds,8.5,data/benchmarks/benchmark_summary.csv,"compile time of the weighted-sum program, d = 2,202",recomputed
+e6.fc_features.initial.individual.B1.mean_cosine,1.0,data/leakage/leakage_raw.csv,"mean cosine of the best-matching recovered feature vector, one image per client",recomputed
+e6.fc_features.trained.individual.B1.mean_cosine,1.0,data/leakage/leakage_raw.csv,"mean cosine of the best-matching recovered feature vector, one image per client",recomputed
+e6.fc_features.initial.secure_aggregate.B1.mean_cosine,0.96,data/leakage/leakage_raw.csv,"mean cosine of the best-matching recovered feature vector, one image per client",recomputed
+e6.fc_features.trained.secure_aggregate.B1.mean_cosine,0.97,data/leakage/leakage_raw.csv,"mean cosine of the best-matching recovered feature vector, one image per client",recomputed
+e6.labels.individual.precision_cell_min,1.0,data/leakage/leakage_raw.csv,"smallest mean label precision over (model state, B) cells",recomputed
+e6.labels.individual.precision_cell_max,1.0,data/leakage/leakage_raw.csv,"largest mean label precision over (model state, B) cells",recomputed
+e6.labels.secure_aggregate.precision_cell_min,0.29,data/leakage/leakage_raw.csv,"smallest mean label precision over (model state, B) cells",recomputed
+e6.labels.secure_aggregate.precision_cell_max,0.71,data/leakage/leakage_raw.csv,"largest mean label precision over (model state, B) cells",recomputed
+p3.jit4.static.attacker_participations,40,data/mtd_defence/p3_runs.csv,"attacker participations over ten rounds, static cohorts (all seeds)",recomputed
+p3.jit4.secret.attacker_participations_range,22-27,data/mtd_defence/p3_runs.csv,"attacker participations over ten rounds, secret cohorts (range over seeds)",recomputed
+p3.adaptive.secret.attacker_participations_mean,17.8,data/mtd_defence/p3_runs.csv,"mean attacker participations, secret cohorts",recomputed
+p3.adaptive.static.attacker_participations_mean,20.0,data/mtd_defence/p3_runs.csv,"mean attacker participations, static cohorts",recomputed
+p3.none.accuracy_range,0.833-0.835,data/mtd_defence/p3_runs.csv,"clean accuracy without attack, range of the condition means",recomputed
+p3.honest_rejection.max_condition_mean,0.022,data/mtd_defence/p3_runs.csv,"largest mean honest rejection rate over (condition, attack)",recomputed
+p3.honest_rejection.max_single_run,0.071,data/mtd_defence/p3_runs.csv,largest honest rejection rate of a single run,recomputed
+p3.static_norm_only_equals_m3,1,data/mtd_defence/p3_runs.csv + m3_runs.csv,1 if the static norm-only runs of P3 equal M3 exactly for seeds 101-103,recomputed

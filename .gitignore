@@ -1,0 +1,49 @@
+# Python environments and generated files
+venv/
+env/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.tox/
+.coverage
+*.egg-info/
+build/
+dist/
+
+# Local datasets and generated experiment outputs
+/data/
+results/
+/experiments/
+
+# Keep selected research evidence, including CSV metrics
+!research_output/
+!research_output/**/*.csv
+
+# Secrets, credentials and local deployment material
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# IDE and operating system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Binary instrumentation archives of the runs stay on the evaluation host; those of
+# the completion evaluation are hashed in research_output/completion/final_validation_manifest.json
+*.npz
+
+# Secret from which the paired study P3 derives its MTD secrets
+pairing_key

@@ -1,0 +1,189 @@
+[
+  {
+    "name": "e1_backdoor_rounds",
+    "kind": "chart",
+    "title": "E1: training under the boosted backdoor",
+    "caption": "Clean accuracy (a) and backdoor attack success rate (b) per round under the \u00d74 boosted backdoor (E1, three seeds). Lines are means; bands are 95 % Student-t intervals over seeds.",
+    "sources": [
+      "data/core/accuracy_over_rounds.csv"
+    ],
+    "transform": "rows study=e1, attack=backdoor, metric in {global_accuracy, backdoor_asr}, rounds 1-10; mean and ci95 columns plotted as recorded (CI clipped to [0,1])",
+    "script": "figures/scripts/make_charts.py",
+    "png": "figures/png/e1_backdoor_rounds.png",
+    "pdf": "figures/pdf/e1_backdoor_rounds.pdf"
+  },
+  {
+    "name": "backdoor_asr_by_defence",
+    "kind": "chart",
+    "title": "Backdoor success by defence, boosted vs adaptive attacker",
+    "caption": "Final-round backdoor attack success rate per seed (dots) and mean (tick) for each defence. (a) Boosted backdoor, E1/E1x; (b) adaptive backdoor that scales its update to 0.95 \u00d7 the published threshold, E2. The dotted line is the clean model's natural trigger response (E1, no attack).",
+    "sources": [
+      "data/core/all_rounds.csv"
+    ],
+    "transform": "per run: backdoor_asr of the last completed round; studies e1/e1x (attack backdoor) and e2 (adaptive_backdoor); reference = mean final ASR of e1 baseline without attack",
+    "script": "figures/scripts/make_charts.py",
+    "png": "figures/png/backdoor_asr_by_defence.png",
+    "pdf": "figures/pdf/backdoor_asr_by_defence.pdf"
+  },
+  {
+    "name": "e3_schedule_predictability",
+    "kind": "chart",
+    "title": "E3: schedule predictability in federated training",
+    "caption": "Schedule-aware adversaries (budget 2, \u00d74 backdoor, FedAvg without defence, three seeds). (a) Mean number of malicious clients per cohort; (b) clean accuracy. Dots are seeds, diamonds means.",
+    "sources": [
+      "data/core/all_rounds.csv"
+    ],
+    "transform": "per run (study e3): mean of malicious_selected over rounds 1-10 and mean global_accuracy of the last three rounds",
+    "script": "figures/scripts/make_charts.py",
+    "png": "figures/png/e3_schedule_predictability.png",
+    "pdf": "figures/pdf/e3_schedule_predictability.pdf"
+  },
+  {
+    "name": "e3mc_exposure",
+    "kind": "chart",
+    "title": "E3-MC: compromise hit rate per schedule",
+    "caption": "Share of compromised clients that end up in a cohort (N = 12, K = 4, R = 10 rounds, 200 Monte-Carlo trials). Error bars are 95 % Student-t intervals over trials; the dotted line is the random baseline K/N.",
+    "sources": [
+      "data/mtd_exposure/exposure_summary_R10.csv"
+    ],
+    "transform": "rows metric=compromise_hit_rate, budgets 2 and 3; mean and ci95 columns as recorded",
+    "script": "figures/scripts/make_charts.py",
+    "png": "figures/png/e3mc_exposure.png",
+    "pdf": "figures/pdf/e3mc_exposure.pdf"
+  },
+  {
+    "name": "e4_sweeps",
+    "kind": "chart",
+    "title": "E4: attack-strength sweeps",
+    "caption": "Attack-strength sweeps (two seeds) for FedAvg and the plaintext execution of the adaptive norm defence, which is trajectory-identical to the SPDZ2k program. Dots are seeds, lines connect means. In (b) hollow markers are runs whose model was destroyed; the line averages only runs with a usable model.",
+    "sources": [
+      "data/core/all_rounds.csv"
+    ],
+    "transform": "per run (study e4): last-three-round mean accuracy and final-round ASR; attacks backdoor__boost{1,2,8,16} and sign_flip__str{1,2,8}",
+    "script": "figures/scripts/make_charts.py",
+    "png": "figures/png/e4_sweeps.png",
+    "pdf": "figures/pdf/e4_sweeps.pdf"
+  },
+  {
+    "name": "overhead_in_training",
+    "kind": "chart",
+    "title": "Per-round cost inside federated training",
+    "caption": "Mean cost per training round without attack (E1, 2,202 parameters, K = 4, three SPDZ2k parties on one host; 3 runs \u00d7 10 rounds per configuration). The sum-only round includes about 8.5 s of per-round compilation.",
+    "sources": [
+      "data/core/all_rounds.csv"
+    ],
+    "transform": "study e1, attack none, rounds 1-10: means of round_seconds, mpc_protocol_seconds_max and mpc_global_data_sent_mb (MB/1000)",
+    "script": "figures/scripts/make_charts.py",
+    "png": "figures/png/overhead_in_training.png",
+    "pdf": "figures/pdf/overhead_in_training.pdf"
+  },
+  {
+    "name": "benchmark_scaling",
+    "kind": "chart",
+    "title": "SPDZ2k cost vs model size",
+    "caption": "Isolated SPDZ2k rounds (three local parties, K = 4) for model sizes from 1,000 to 100,000 parameters. Dots are repetitions, lines connect means; both axes are logarithmic. The cross marks the sum-only round with 250,000 parameters, which the parties' 600 s round timeout stopped.",
+    "sources": [
+      "data/benchmarks/benchmark_results.csv"
+    ],
+    "transform": "rows parties=3, mode=clip_screen, threshold=adaptive (the sum-only rows carry the same label columns); completed rows: protocol_seconds_max and global_data_sent_mb/1000; failed row marked at the timeout",
+    "script": "figures/scripts/make_charts.py",
+    "png": "figures/png/benchmark_scaling.png",
+    "pdf": "figures/pdf/benchmark_scaling.pdf"
+  },
+  {
+    "name": "pilot_sign_agreement",
+    "kind": "chart",
+    "title": "Pilot: sign agreement of honest and malicious updates",
+    "caption": "Offline pilot on the recorded updates of 175 runs: sign agreement of each update with the majority of the other cohort members on a random 25 % coordinate subset, for cohorts with exactly one attacker. Boxes span the quartiles, whiskers 1.5 \u00d7 IQR. AUC = probability that an honest update agrees more than the attacker's.",
+    "sources": [
+      "data/mtd_defence/pilot_scores.csv"
+    ],
+    "transform": "rows attackers_in_cohort = 1; column sign_agree_0.25_single split by the malicious flag; AUC by pairwise comparison (ties 0.5)",
+    "script": "figures/scripts/make_charts.py",
+    "png": "figures/png/pilot_sign_agreement.png",
+    "pdf": "figures/pdf/pilot_sign_agreement.pdf"
+  },
+  {
+    "name": "m2_subset_types",
+    "kind": "chart",
+    "title": "M2: which coordinates the direction screen checks",
+    "caption": "Direction screen with \u03c4 = 0.52 and static cohorts of four (three seeds; plaintext execution of the in-MPC algorithm). Dots are seeds, ticks means. The norm-only baseline combines M1 (seeds 101, 102) and M2b (seed 103).",
+    "sources": [
+      "data/mtd_defence/m1_runs.csv",
+      "data/mtd_defence/m2_runs.csv",
+      "data/mtd_defence/m2b_runs.csv"
+    ],
+    "transform": "final-round ASR per run as recorded in the run tables (m1_summary.py)",
+    "script": "figures/scripts/make_charts.py",
+    "png": "figures/png/m2_subset_types.png",
+    "pdf": "figures/pdf/m2_subset_types.pdf"
+  },
+  {
+    "name": "p3_paired",
+    "kind": "chart",
+    "title": "P3: paired comparison of static and secret cohorts",
+    "caption": "Paired evaluation (cohorts of seven, five seeds): within a seed all conditions share the same secret cohorts and secret subsets. Grey lines connect the four conditions of one seed; black ticks are means.",
+    "sources": [
+      "data/mtd_defence/p3_runs.csv"
+    ],
+    "transform": "final-round ASR per run as recorded; pivot by seed and condition",
+    "script": "figures/scripts/make_charts.py",
+    "png": "figures/png/p3_paired.png",
+    "pdf": "figures/pdf/p3_paired.pdf"
+  },
+  {
+    "name": "f1_spdz2k_framework",
+    "kind": "chart",
+    "title": "F1: final framework inside SPDZ2k",
+    "caption": "Final framework executed in SPDZ2k (secure clip/screen, secret 25 % direction screen with \u03c4 = 0.52, secret MTD, cohorts of seven; three seeds). Dots are seeds, ticks means.",
+    "sources": [
+      "data/mtd_defence/f1_runs.csv"
+    ],
+    "transform": "final-round ASR and last-three-round accuracy per run as recorded",
+    "script": "figures/scripts/make_charts.py",
+    "png": "figures/png/f1_spdz2k_framework.png",
+    "pdf": "figures/pdf/f1_spdz2k_framework.pdf"
+  },
+  {
+    "name": "direction_screen_cost",
+    "kind": "chart",
+    "title": "Cost of the direction screen in SPDZ2k",
+    "caption": "One SPDZ2k round of the robust program at d = 2,202 and K = 4 (three local parties), without and with the direction screen; two repetitions each (dots), bars are means. All rounds matched the reference bit for bit.",
+    "sources": [
+      "data/mtd_defence/direction_benchmark.json"
+    ],
+    "transform": "party 0 protocol_seconds and global_data_sent_mb/1000 per repetition",
+    "script": "figures/scripts/make_charts.py",
+    "png": "figures/png/direction_screen_cost.png",
+    "pdf": "figures/pdf/direction_screen_cost.pdf"
+  },
+  {
+    "name": "sum_only_correction",
+    "kind": "chart",
+    "title": "Sum-only SPDZ2k against FedAvg before and after the scale correction",
+    "caption": "(a) Accuracy trajectories of one seed-matched triple under scaled replacement: the decimal scale S = 10\u2076 diverges from FedAvg, the power-of-two scale S = 2\u2074\u2070 coincides with it in every round. (b) Largest per-round accuracy difference to FedAvg for each of the 18 smpc_only runs (zero for every rerun).",
+    "sources": [
+      "data/sum_only/scaled_replacement_baseline_s102_results.csv",
+      "data/sum_only/scaled_replacement_smpc_only_1e6_s102_results.csv",
+      "data/sum_only/scaled_replacement_smpc_only_2p40_s102_results.csv",
+      "data/sum_only/pow2_vs_fedavg.csv"
+    ],
+    "transform": "global_accuracy per round as recorded; max_abs_accuracy_difference per run (pow2_vs_fedavg.py)",
+    "script": "figures/scripts/make_charts.py",
+    "png": "figures/png/sum_only_correction.png",
+    "pdf": "figures/pdf/sum_only_correction.pdf"
+  },
+  {
+    "name": "e6_leakage",
+    "kind": "chart",
+    "title": "E6: images recoverable by a curious coordinator",
+    "caption": "Analytic input read-out through the first fully connected layer of a probe MLP (E6, FedSGD, 8 trials per point): share of the target client's images recovered near-exactly from its own update (plaintext FedAvg) and from the SPDZ2k aggregate of a four-client cohort.",
+    "sources": [
+      "data/leakage/leakage_raw.csv"
+    ],
+    "transform": "rows attack=fc_input; share of image records with ssim >= 0.9 per (model_state, view, batch_size)",
+    "script": "figures/scripts/make_charts.py",
+    "png": "figures/png/e6_leakage.png",
+    "pdf": "figures/pdf/e6_leakage.pdf"
+  }
+]

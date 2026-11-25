@@ -1,0 +1,37 @@
+# Plaintext FedAvg baseline under the same boosted backdoor (no SMPC, static
+# cohort). Identical to the E1 run e1__baseline__backdoor__s101 except for the
+# run name and output directory. Runs without MP-SPDZ.
+attacks:
+  attack_type: backdoor
+  backdoor:
+    poison_fraction: 0.5
+    target_label: 0
+    trigger_size: 4
+  boost: 4.0
+  enabled: true
+  num_malicious: 3
+  placement: stratified
+evaluation:
+  instrumentation: true
+  measure_backdoor_asr: true
+  output_dir: results/plaintext
+  save_csv: true
+  save_plots: false
+experiment:
+  name: plaintext
+  rounds: 10
+  seed: 101
+federated_learning:
+  batch_size: 32
+  dataset: fashion_mnist
+  fraction_train: 0.34
+  framework: flower
+  learning_rate: 0.05
+  local_epochs: 1
+  model: compact_cnn
+  num_clients: 12
+  partitioning: iid
+mtd:
+  schedule: static
+smpc:
+  enabled: false

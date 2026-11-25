@@ -1,0 +1,136 @@
+[
+  {
+    "name": "fl_overview",
+    "kind": "diagram",
+    "title": "Federated learning with a coordinating server (conceptual)",
+    "caption": "Federated averaging (conceptual): in every round the server sends the global model to a cohort of clients, each client trains on its own data and returns its model, and the server averages the returned models weighted by sample counts.",
+    "sources": [
+      "conceptual; FedAvg as defined by McMahan et al. (2017)"
+    ],
+    "transform": "none",
+    "script": "figures/scripts/make_diagrams.py",
+    "png": "figures/png/fl_overview.png",
+    "pdf": "figures/pdf/fl_overview.pdf"
+  },
+  {
+    "name": "system_architecture",
+    "kind": "diagram",
+    "title": "Implemented system architecture",
+    "caption": "Implemented architecture of the hybrid framework (all components ran on one host in the evaluation). The coordinator selects the cohort with the MTD controller and sends the global model to the clients (Flower FitIns, not drawn); the clients send their encoded updates directly to the three SPDZ2k parties, and only the declared outputs reach the coordinator's output client.",
+    "sources": [
+      "src/fl_security/federated/flower_simulation.py",
+      "src/fl_security/mtd/controller.py",
+      "src/fl_security/smpc/{robust.py, mp_spdz.py, mp_spdz_party_service.py}",
+      "research_output/completion/FINAL_ARCHITECTURE.md"
+    ],
+    "transform": "none",
+    "script": "figures/scripts/make_diagrams.py",
+    "png": "figures/png/system_architecture.png",
+    "pdf": "figures/pdf/system_architecture.pdf"
+  },
+  {
+    "name": "round_sequence",
+    "kind": "diagram",
+    "title": "Sequence of one robust secure round",
+    "caption": "Message sequence of one secure round with the in-MPC defence, as implemented in flower_simulation.py, mp_spdz.py and mp_spdz_party_service.py.",
+    "sources": [
+      "src/fl_security/federated/flower_simulation.py",
+      "src/fl_security/smpc/mp_spdz.py",
+      "research_output/completion/FINAL_ARCHITECTURE.md \u00a72"
+    ],
+    "transform": "none",
+    "script": "figures/scripts/make_diagrams.py",
+    "png": "figures/png/round_sequence.png",
+    "pdf": "figures/pdf/round_sequence.pdf"
+  },
+  {
+    "name": "party_service",
+    "kind": "diagram",
+    "title": "Party service pipeline",
+    "caption": "Processing of one round inside each aggregation-party service (mp_spdz_party_service.py).",
+    "sources": [
+      "src/fl_security/smpc/mp_spdz_party_service.py",
+      "docs/threat-model.md (failure behaviour)"
+    ],
+    "transform": "none",
+    "script": "figures/scripts/make_diagrams.py",
+    "png": "figures/png/party_service.png",
+    "pdf": "figures/pdf/party_service.pdf"
+  },
+  {
+    "name": "inmpc_defence",
+    "kind": "diagram",
+    "title": "In-MPC robust aggregation",
+    "caption": "The robust aggregation computed inside SPDZ2k and the coordinator's plaintext output check (spdz2k_robust_aggregate.mpc, robust.py). Every decision uses the visible contribution $w_k x_k$, which closes the wrap-around and weight-inverse attacks on the 64-bit ring.",
+    "sources": [
+      "src/fl_security/smpc/programs/spdz2k_robust_aggregate.mpc",
+      "src/fl_security/smpc/robust.py",
+      "docs/secure_robust_aggregation.md \u00a73-5"
+    ],
+    "transform": "none",
+    "script": "figures/scripts/make_diagrams.py",
+    "png": "figures/png/inmpc_defence.png",
+    "pdf": "figures/pdf/inmpc_defence.pdf"
+  },
+  {
+    "name": "direction_screen",
+    "kind": "diagram",
+    "title": "Moving-target direction screen",
+    "caption": "The moving-target direction screen. A secret, round-specific coordinate subset is drawn by the coordinator; inside SPDZ2k each client's sign pattern on that subset is compared with the majority of the other cohort members, and clients below the agreement threshold leave the aggregate like screen-rejected ones.",
+    "sources": [
+      "src/fl_security/smpc/robust.py (direction_key, direction_indices, direction_screen)",
+      "src/fl_security/smpc/programs/spdz2k_robust_aggregate.mpc",
+      "src/fl_security/federated/flower_simulation.py"
+    ],
+    "transform": "none",
+    "script": "figures/scripts/make_diagrams.py",
+    "png": "figures/png/direction_screen.png",
+    "pdf": "figures/pdf/direction_screen.pdf"
+  },
+  {
+    "name": "mtd_workflow",
+    "kind": "diagram",
+    "title": "Secret-derived MTD scheduling",
+    "caption": "Secret-derived cohort selection (mtd/controller.py, mtd/randomness.py) and the schedule-aware adversary models used in E3 (mtd/exposure.py). Without the secret, prediction is no better than chance.",
+    "sources": [
+      "src/fl_security/mtd/controller.py",
+      "src/fl_security/mtd/randomness.py",
+      "src/fl_security/mtd/exposure.py",
+      "docs/mtd_scheduling.md"
+    ],
+    "transform": "none",
+    "script": "figures/scripts/make_diagrams.py",
+    "png": "figures/png/mtd_workflow.png",
+    "pdf": "figures/pdf/mtd_workflow.pdf"
+  },
+  {
+    "name": "experiment_pipeline",
+    "kind": "diagram",
+    "title": "Experiment and evidence pipeline",
+    "caption": "Experiment orchestration and evidence pipeline. Every run is defined in grid.py, executed in its own process and recorded with its configuration, commit, configuration hash and secret commitment.",
+    "sources": [
+      "src/fl_security/experiments/{grid.py, suite.py, analysis.py, report.py}",
+      "run_*.py",
+      "analyze_suite.py"
+    ],
+    "transform": "none",
+    "script": "figures/scripts/make_diagrams.py",
+    "png": "figures/png/experiment_pipeline.png",
+    "pdf": "figures/pdf/experiment_pipeline.pdf"
+  },
+  {
+    "name": "attack_defence_layers",
+    "kind": "diagram",
+    "title": "Which layer addresses which attack",
+    "caption": "Interaction between attack classes and the framework's layers, as measured in this thesis (experiment identifiers in brackets).",
+    "sources": [
+      "research_output/completion/FINAL_VALIDATION_REPORT.md",
+      "research_output/mtd_defence/MTD_DEFENCE_REPORT.md",
+      "matrices/VERIFIED_METRICS.csv"
+    ],
+    "transform": "qualitative summary of measured verdicts",
+    "script": "figures/scripts/make_diagrams.py",
+    "png": "figures/png/attack_defence_layers.png",
+    "pdf": "figures/pdf/attack_defence_layers.pdf"
+  }
+]
